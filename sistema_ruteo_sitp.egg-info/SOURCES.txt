@@ -1,0 +1,13 @@
+pyproject.toml
+setup.py
+./src/__init__.py
+./src/main.py
+./src/reglas_logicas.py
+./src/sistema_ruteo.py
+./tests/__init__.py
+./tests/test_ruteo.py
+sistema_ruteo_sitp.egg-info/PKG-INFO
+sistema_ruteo_sitp.egg-info/SOURCES.txt
+sistema_ruteo_sitp.egg-info/dependency_links.txt
+sistema_ruteo_sitp.egg-info/top_level.txt
+tests/test_ruteo.py

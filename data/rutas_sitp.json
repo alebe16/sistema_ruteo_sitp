@@ -1,0 +1,25 @@
+{
+    "rutas": [
+        {
+            "nombre": "C27",
+            "tipo": "alimentador",
+            "estaciones": ["Portal Suba", "Suba Av Boyacá", "Suba Calle 100", "Suba Cra 92", "Museo Nacional"],
+            "frecuencia": 10,
+            "transbordos": ["Portal Suba", "Museo Nacional"]
+        },
+        {
+            "nombre": "B13",
+            "tipo": "troncal",
+            "estaciones": ["Portal Americas", "Museo Nacional", "Av Jimenez", "Calle 72"],
+            "frecuencia": 5,
+            "transbordos": ["Museo Nacional", "Av Jimenez"]
+        },
+        {
+            "nombre": "H12",
+            "tipo": "troncal",
+            "estaciones": ["Portal 80", "Calle 100", "Calle 72", "Av Jimenez"],
+            "frecuencia": 8,
+            "transbordos": ["Calle 72", "Av Jimenez"]
+        }
+    ]
+}

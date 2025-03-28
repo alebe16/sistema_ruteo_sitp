@@ -1,0 +1,2 @@
+# Sistema de Ruteo SITP - Requerimientos
+python>=3.9.0
