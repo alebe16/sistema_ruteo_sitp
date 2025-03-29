@@ -10,8 +10,7 @@ Este proyecto implementa un sistema inteligente de ruteo para el transporte masi
 - [Pruebas](#pruebas)
 - [Tecnologías](#tecnologías)
 - [Limitaciones y Mejoras Futuras](#limitaciones-y-mejoras-futuras)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+
 
 ## Descripción
 
@@ -57,6 +56,42 @@ Este proyecto ha validado que, a pesar de ser un prototipo, el uso de **técnica
 
 1. **Clona el repositorio:**
 
-   ```bash
    git clone https://github.com/alebe16/sistema_ruteo_sitp.git
    cd sistema_ruteo_sitp
+
+2. **Instala las dependencias:**
+
+pip install -r requirements.txt
+
+3.  **Uso**
+
+Para usar el sistema de ruteo, simplemente ejecuta el archivo main.py:
+
+python src/main.py
+El sistema te permitirá ingresar una estación de origen y destino y te devolverá la mejor ruta, incluyendo las rutas directas y los transbordos si es necesario.
+
+Ejemplo de uso:
+
+Ingrese la estación de origen: "Suba Av Boyacá"
+Ingrese la estación de destino: "Suba Calle 100"
+Ruta recomendada: ["Suba Av Boyacá"]
+Tiempo estimado: 15 minutos**
+
+4. **Pruebas**
+El proyecto incluye pruebas unitarias para verificar el correcto funcionamiento del sistema de ruteo. Las pruebas están en el directorio tests/ y puedes ejecutarlas con:
+
+python -m unittest tests/test_ruteo.py
+
+5. **Tecnologías**
+- Lenguaje: Python 3.9+
+- Librerías principales: pandas, networkx, unittest
+- Estructura de datos: JSON, CSV (para la base de conocimiento)
+
+6. **Limitaciones y Mejoras Futuras**
+
+- Datos en tiempo real: La incorporación de APIs de transporte permitirá una actualización dinámica de las rutas.
+- Optimización avanzada: Implementación de algoritmos más avanzados, como A* o Dijkstra, para encontrar rutas óptimas.
+- Interfaz gráfica: Desarrollo de visualizaciones interactivas para facilitar la interacción del usuario.
+- Integración de aprendizaje automático: Para predecir la demanda y congestión del sistema.
+
+ 
