@@ -66,11 +66,11 @@ pip install -r requirements.txt
 3.  **Uso**
 
 Para usar el sistema de ruteo, simplemente ejecuta el archivo main.py:
-
 python src/main.py
+
 El sistema te permitirá ingresar una estación de origen y destino y te devolverá la mejor ruta, incluyendo las rutas directas y los transbordos si es necesario.
 
-Ejemplo de uso:
+**Ejemplo de uso:**
 
 Ingrese la estación de origen: "Suba Av Boyacá"
 Ingrese la estación de destino: "Suba Calle 100"
