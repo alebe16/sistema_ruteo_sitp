@@ -57,6 +57,7 @@ Este proyecto ha validado que, a pesar de ser un prototipo, el uso de **técnica
 1. **Clona el repositorio:**
 
    git clone https://github.com/alebe16/sistema_ruteo_sitp.git
+
    cd sistema_ruteo_sitp
 
 2. **Instala las dependencias:**
